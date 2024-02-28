@@ -1,13 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oxygen+Mono&display=swap')
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oxygen+Mono&display=swap') 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oxygen+Mono&display=swap')
 
-@font-face {
-  font-family: 'oxygen mono';
-  src:  url('myfont.woff2') format('woff2'),
-        url('myfont.woff') format('woff');
-}
-
-* {
+*, html {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -552,8 +546,8 @@ footer a {
 
 .publications {
     padding-top: 8em;
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
     padding-bottom: 2em;
     border-bottom-style: dashed;
     border-color: mediumblue;
@@ -592,8 +586,9 @@ footer a {
 }
 
 .publication {
-    padding-right: 1.5em;
-    padding-bottom: 1em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    padding-top: 2em;
     width: 30%;
     text-align: left;
     line-height: 1.5em;
