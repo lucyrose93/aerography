@@ -596,7 +596,7 @@ footer a {
 
 @media (max-width: 1080px) {
     .publication {
-        width: 50%;
+        width: 40%;    
     }
 
     .publications h1 {
@@ -606,16 +606,20 @@ footer a {
 
 @media (max-width: 700px) {
     .publication {
-        width: 100%;
         padding: 0 0 2em 0;
+        width: 100%;
+        display: block;
+        margin: 0 auto;
     }
 
     .news {
         padding-top: 3em;
+       
     }
 
     .responsive_iframe {
         min-height: 90vh;
+        max-width: 90%;
     }
 }
 
