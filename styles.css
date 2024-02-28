@@ -588,6 +588,7 @@ footer a {
 
 .publication {
     padding-right: 2em;
+    padding-left: 3em;
     padding-bottom: 2em;
     padding-top: 2em;
     width: 30%;
@@ -597,7 +598,8 @@ footer a {
 
 @media (max-width: 1080px) {
     .publication {
-        width: 40%;    
+        width: 50%;
+        padding-right: 1em;
     }
 
     .publications h1 {
@@ -607,7 +609,7 @@ footer a {
 
 @media (max-width: 700px) {
     .publication {
-        padding: 0 0 2em 0;
+        padding: 0 0 2em 1.5em;
         width: 100%;
         display: block;
         margin: 0 auto;
