@@ -3,7 +3,7 @@ function myFunction(x) {
   if (x.matches) { // If media query matches
     document.getElementById("slides1").src = "imgs/mobile-balloon.jpg";
         document.getElementById("slides2").src = "imgs/mobile-dust.jpg";
-          document.getElementById("slides3").src = "imgs/mobile-moss.jpeg";
+          document.getElementById("slides3").src = "imgs/mobile-moss.jpg";
 }
 }
     
