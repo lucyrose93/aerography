@@ -32,6 +32,12 @@ h6 {
     font-weight: 100;
     color: darkblue;
     line-height: 1.6em;
+    padding-bottom: 0.5em;
+    padding-top: 1em;
+}
+
+p, blockquote {
+    margin-bottom: 0.7em;
 }
 
 .highlight {
@@ -361,7 +367,7 @@ footer a {
     border-left-style: solid;
     border-color: mediumblue;
     border-width: thin;
-    padding-bottom: 0.5em;
+    padding-bottom: 0.8em;
     padding-left: 1em;
     padding-top: 2em;
     margin-bottom: 0;
@@ -587,7 +593,7 @@ footer a {
 }
 
 .publication {
-    padding-right: 2em;
+    padding-right: 0.5em;
     padding-left: 3em;
     padding-bottom: 2em;
     padding-top: 2em;
@@ -596,10 +602,11 @@ footer a {
     line-height: 1.5em;
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1280px) {
     .publication {
         width: 50%;
         padding-right: 1em;
+        padding-left: 2em;
     }
 
     .publications h1 {
