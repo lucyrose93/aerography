@@ -770,3 +770,16 @@ footer a {
     70% {
         opacity: 0;
     }
+}
+
+
+@media (max-width: 800px) {
+        .slogan {
+            padding-left: 1em;
+            padding-right: 1em;
+            padding-top: 4em;
+    }
+        .slogan_smaller {
+            line-height: 1.2em;
+        }
+    }
