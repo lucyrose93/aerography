@@ -752,6 +752,10 @@ footer a {
 @media (max-width: 800px) {
     .contact_form {
         min-height: 180vh;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 5em;
     }
 }
 
