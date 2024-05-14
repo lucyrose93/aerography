@@ -400,15 +400,6 @@ footer a {
     width: 100%;
 }
 
-.summary_text {
-    border-right-style: solid;
-    border-color: mediumblue;
-    border-width: thin;
-    padding-right: 1em;
-    padding-top: 1em;
-    padding-bottom: 2em;
-}
-
 .about_right_border {
     border-top-style: solid;
     border-right-style: solid;
