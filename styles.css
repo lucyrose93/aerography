@@ -40,10 +40,12 @@ p, blockquote {
     margin-bottom: 0.7em;
 }
 
+/*
 .highlight {
-    /*    font-weight: 600;*/
+        font-weight: 600;
     background-color: lightyellow;
 }
+*/
 
 /* header */
 
@@ -688,14 +690,14 @@ footer a {
 .project_gallery {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
+    max-width: 2100px;
     margin: auto;
 }
 
 .project_gallery img {
-    width: 30%;
+    width: 33%;
     height: 100%;
     padding: 1em;
 }
