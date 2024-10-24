@@ -550,7 +550,7 @@ footer a {
     position: relative;
     display: block;
     min-height: 140vh;
-    padding: 2em 1em 2em 1em;
+    padding: 0em 1em 2em 1em;
     width: 95%;
     height: auto;
     max-width: 1200px;
