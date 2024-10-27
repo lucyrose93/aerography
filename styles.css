@@ -240,8 +240,8 @@ blockquote {
     padding-top: 1em;
     padding-bottom: 3em;
     border-style: solid;
-    border-color: #ccc;
-    color: #ccc;
+    border-color: #gray;
+    color: #gray;
     border-width: thin;
     background-color: white;
     font: inherit;
@@ -550,7 +550,7 @@ footer a {
     position: relative;
     display: block;
     min-height: 140vh;
-    padding: 0em 1em 2em 1em;
+    padding: 2em 1em 2em 1em;
     width: 95%;
     height: auto;
     max-width: 1200px;
