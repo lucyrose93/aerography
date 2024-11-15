@@ -332,10 +332,10 @@ blockquote {
 }
 
 footer {
-    padding: 1em 0;
+    padding: 1em 1em;
     width: 100%;
-    text-align: center;
-    color: darkblue;
+    text-align: right;
+    color: lightsteelblue;
     font-weight: thin;
 }
 
