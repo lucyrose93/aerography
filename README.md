@@ -1,2 +1,2 @@
 # aerography
- PhD portfolio website live at https://lucyrose93.github.io/aerography/
+ Art-research portfolio live at https://lucyrose93.github.io/aerography/
