@@ -240,8 +240,8 @@ blockquote {
     padding-top: 1em;
     padding-bottom: 3em;
     border-style: solid;
-    border-color: #gray;
-    color: #gray;
+    border-color: #ccc;
+    color: #ccc;
     border-width: thin;
     background-color: white;
     font: inherit;
