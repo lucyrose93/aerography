@@ -702,7 +702,7 @@ footer a {
     padding: 1em;
 }
 
-.air_art img {
+.air_art img, .sym_stories img {
     width: 45%;
 }
 
