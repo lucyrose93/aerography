@@ -481,46 +481,6 @@ footer a {
     }
 }
 
-/*
-
-@-moz-keyframes @keyframes crossFade {
-  20% {
-    opacity: 1;
-  }
-  70% {
-    opacity: 0;
-  }
-}
-
-@-webkit-keyframes @keyframes crossFade {
-  20% {
-    opacity: 1;
-  }
-  70% {
-    opacity: 0;
-  }
-}
-
-@-o-keyframes @keyframes crossFade {
-  20% {
-    opacity: 1;
-  }
-  70% {
-    opacity: 0;
-  }
-}
-
-@-ms-keyframes @keyframes crossFade {
-  20% {
-    opacity: 1;
-  }
-  70% {
-    opacity: 0;
-  }
-}
-*/
-
-
 .slideshow img:nth-of-type(1) {
     animation-delay: 0s;
 }
@@ -685,6 +645,11 @@ footer a {
     margin: 0 auto;
     padding-top: 3em;
     padding-bottom: 3em;
+}
+
+.project ol {
+    line-height: 2em;
+    padding: 0 0 1em 1.5em;
 }
 
 .project_gallery {
