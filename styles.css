@@ -15,7 +15,7 @@ body {
     line-height: 1.5em;
     letter-spacing: 0.03em;
     font-weight: lighter;
-    color: navy;
+    color: darkblue;
 }
 
 a {
@@ -35,6 +35,10 @@ h6 {
     line-height: 1.6em;
     padding-bottom: 0.5em;
     padding-top: 1em;
+}
+
+h1 {
+    font-size: 1.4rem;
 }
 
 p,
@@ -339,7 +343,7 @@ blockquote {
 footer {
     padding: 1em 1em;
     width: 100%;
-    text-align: right;
+    text-align: center;
     color: lightsteelblue;
     font-weight: thin;
 }
@@ -564,7 +568,7 @@ footer a {
     padding-left: 2em;
 }
 
-.publications h1 {
+.publications {
     text-align: left;
 }
 
