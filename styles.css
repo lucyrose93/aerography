@@ -362,7 +362,10 @@ footer a {
 .about {
     max-width: 700px;
     margin: 0 auto;
-    padding-top: 6rem;
+}
+
+.about header {
+    padding: 8rem 0 2rem;
 }
 
 .about ul {
@@ -375,8 +378,10 @@ footer a {
 
 @media (max-width: 1200px) {
 
+    .about header {
+        padding-top: 6rem;
+    }
     .about {
-        margin-top: 4rem;
         padding: 1rem;
     }
 }
@@ -446,9 +451,9 @@ footer a {
 .responsive_iframe {
     position: relative;
     display: block;
-    min-height: 140vh;
-    padding: 2em 1em 2em 1em;
-    width: 95%;
+    min-height: 80vh;
+    padding: 2em 0em;
+    width: 100%;
     height: auto;
     max-width: 1200px;
     margin: auto;
