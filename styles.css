@@ -360,96 +360,24 @@ footer a {
 }
 
 .about {
-    /*    padding-left: 2em;*/
-    padding-right: 2em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    margin-bottom: 0;
-}
-
-.about_top {
-    padding: 4em 3em 0em 0em;
-    background-image: linear-gradient(white, lightyellow);
-}
-
-.about_2 {
-    background-color: lightyellow;
-}
-
-.about_3 {
-    background-image: linear-gradient(lightyellow, white);
-}
-
-.about_text {
-    width: 50%;
-    letter-spacing: .03em;
-    padding-right: 1em;
-}
-
-#about_blockquote {
-    /*    border-left-style: solid;*/
-    /*    border-color: mediumblue;*/
-    /*    border-width: thin;*/
-    padding-bottom: 0.8em;
-    /*    padding-left: 1em;*/
-    padding-top: 2em;
-    margin-bottom: 0;
-    font-weight: 370;
-    font-size: 1.4em;
-    border-style: none;
-}
-
-.about img {
+    max-width: 700px;
     margin: 0 auto;
-    width: 100%;
+    padding-top: 6rem;
 }
 
-#headshot {
-    width: 100%;
+.about ul {
+    padding-left: 1rem;
 }
 
-.about_right_border {
-    /*    border-top-style: solid;*/
-    /*    border-right-style: solid;*/
-    /*    padding-left: 1em;*/
-    border-color: mediumblue;
-    border-width: thin;
-    /*    padding-right: 2em;*/
-    padding-bottom: 2em;
+.timeline-item h3 {
+    padding-top: 0;
 }
 
-.about_left_border {
-    /*
-    border-top-style: solid;
-    border-left-style: solid;
-*/
-    /*    padding-left: 2em;*/
-    padding-bottom: 2em;
-    border-color: mediumblue;
-    border-width: thin;
-}
-
-@media (max-width: 800px) {
-    .about_text {
-        min-width: 90%;
-        padding: 0;
-    }
-
-    #about_blockquote {
-        padding-top: 4em;
-    }
+@media (max-width: 1200px) {
 
     .about {
-        display: block;
-        margin: 0 auto;
-        padding-left: 0.8em;
-        padding-right: 0;
-    }
-
-    #headshot {
-        min-width: 90%;
+        margin-top: 4rem;
+        padding: 1rem;
     }
 }
 
@@ -808,4 +736,3 @@ footer a {
         content: url('./imgs/ourspace/key_LS.jpg');
     }
 }
-
