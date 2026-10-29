@@ -74,6 +74,11 @@ blockquote {
     overflow: hidden;
 }
 
+.header {
+    padding-top: 0.9em;
+    padding-left: 0.3em;
+}
+
 .header li a {
     display: block;
     text-decoration: none;
@@ -89,7 +94,7 @@ blockquote {
 
 .header .logo {
     display: block;
-    font-weight: 500;
+    font-weight: 400;
     color: darkblue;
     font-family: 'open sans', sans-serif;
     float: left;
@@ -280,7 +285,7 @@ blockquote {
     box-sizing: content-box;
     height: auto;
     padding: 1%;
-    width: 30%;
+    width: 31%;
     overflow: hidden;
     display: inline-block;
     color: white;
